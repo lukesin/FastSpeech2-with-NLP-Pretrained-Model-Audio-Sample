@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FastSpeech2 with NLP Pretrained Model Audio Sample</title>
+    <style>
+        body {
+            margin: 0% 15%;
+            padding: 50px 30px;
+            background: #fff;
+            color: #111;
+            font-size: 17px;
+            font-family: sans-serif;
+            font-weight: 400;
+            line-height: 1.8;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1 {
+            font-size: 1.75em;
+        }
+
+        h2 {
+            margin-bottom: 0.4em;
+        }
+
+        hr {
+            height: 0.5px;
+            border-width: 0;
+            color: lightgray;
+            background-color: lightgray
+        }
+
+        table {
+            width: 100%;
+        }
+
+        audio {
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+<h1 style="position: sticky">FastSpeech2 with NLP Pretrained Model Audio Sample</h1>
+<table style="table-layout: fixed;position: sticky">
+    <tbody>
+    <tr>
+        <th style="text-align: center">FastSpeech2 Baseline</th>
+        <th style="text-align: center">FastSpeech2 with XLM-RoBERTa</th>
+    </tr>
+    </tbody>
+</table>
+<hr>
+<table style="table-layout: fixed">
+    <tbody>
+    <th style="text-align: center" colspan="2">Text:这一发现更多地被当做经验</th>
+    </tbody>
+    <tbody>
+    <th style="text-align: center" colspan="2">CMN(10mins)</th>
+    <tr>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/CMN_10_cmn_5.wav">
+            </audio>
+        </td>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/XLM-R_CMN_10_cmn_5.wav">
+            </audio>
+        </td>
+    </tr>
+    <th style="text-align: center" colspan="2">CMN(10hours)</th>
+    <tr>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/CMN_600_cmn_5.wav">
+            </audio>
+        </td>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/XLM-R_CMN_600_cmn_5.wav">
+            </audio>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<hr>
+<table>
+    <tbody>
+    <th style="text-align: center" colspan="2">Text:这种风气也会影响其他部门</th>
+    </tbody>
+    <tbody>
+    <th style="text-align: center" colspan="2">CMN(10mins)</th>
+    <tr>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/CMN_10_cmn_13.wav">
+            </audio>
+        </td>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/XLM-R_CMN_10_cmn_13.wav">
+            </audio>
+        </td>
+    </tr>
+    <th style="text-align: center" colspan="2">CMN(10hours)</th>
+    <tr>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/CMN_600_cmn_13.wav">
+            </audio>
+        </td>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/XLM-R_CMN_600_cmn_13.wav">
+            </audio>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<hr>
+<table>
+    <tbody>
+    <th style="text-align: center" colspan="2">Text:反映了沈阳所有志愿者的共同想法</th>
+    </tbody>
+    <tbody>
+    <th style="text-align: center" colspan="2">CMN(10mins)</th>
+    <tr>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/CMN_10_cmn_23.wav">
+            </audio>
+        </td>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/XLM-R_CMN_10_cmn_23.wav">
+            </audio>
+        </td>
+    </tr>
+    <th style="text-align: center" colspan="2">CMN(10hours)</th>
+    <tr>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/CMN_600_cmn_23.wav">
+            </audio>
+        </td>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/XLM-R_CMN_600_cmn_23.wav">
+            </audio>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<hr>
+<table>
+    <tbody>
+    <th style="text-align: center" colspan="2">Text:ئەمما بۇنىڭلىق بىلەن تەخت تالىشىش كۈرىشى توختاپ قالمايدۇ.</th>
+    </tbody>
+    <tbody>
+    <th style="text-align: center" colspan="2">Uyghur(10mins)</th>
+    <tr>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/A10_t1_ug_1.wav">
+            </audio>
+        </td>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/B10_t1_ug_1.wav">
+            </audio>
+        </td>
+    </tr>
+    <th style="text-align: center" colspan="2">Uyghur(10hours)</th>
+    <tr>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/A600_t1_ug_1.wav">
+            </audio>
+        </td>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/B600_t1_ug_1.wav">
+            </audio>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<hr>
+<table>
+    <tbody>
+    <th style="text-align: center" colspan="2">Text:جۇڭگو خەلق ئەدەبىياتى تەتقىقات جەمئىيىتىنىڭ ئەزاسى.</th>
+    </tbody>
+    <tbody>
+    <th style="text-align: center" colspan="2">Uyghur(10mins)</th>
+    <tr>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/A10_t1_ug_6.wav">
+            </audio>
+        </td>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/B10_t1_ug_6.wav">
+            </audio>
+        </td>
+    </tr>
+    <th style="text-align: center" colspan="2">Uyghur(10hours)</th>
+    <tr>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/A600_t1_ug_6.wav">
+            </audio>
+        </td>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/B600_t1_ug_6.wav">
+            </audio>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<hr>
+<table>
+    <tbody>
+    <th style="text-align: center" colspan="2">Text:ئەمما مەھسۇلات ئىشلەپچىقىرىش سېتىشتىن دېرەك بەرمەيدۇ .</th>
+    </tbody>
+    <tbody>
+    <th style="text-align: center" colspan="2">Uyghur(10mins)</th>
+    <tr>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/A10_t2_ug_11.wav">
+            </audio>
+        </td>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/B10_t2_ug_11.wav">
+            </audio>
+        </td>
+    </tr>
+    <th style="text-align: center" colspan="2">Uyghur(10hours)</th>
+    <tr>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/A600_t2_ug_11.wav">
+            </audio>
+        </td>
+        <td style="text-align: center">
+            <audio controls="controls">
+                <source src="./audio/B600_t2_ug_11.wav">
+            </audio>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<hr>
+</body>
+</html>
